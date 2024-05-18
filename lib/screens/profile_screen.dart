@@ -29,6 +29,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       backgroundColor: Colors.grey[300],
       appBar: widget.initialUser != null
           ? AppBar(
+              scrolledUnderElevation: 0,
               leading: IconButton(
                 icon: Icon(Icons.arrow_back, color: Colors.black),
                 onPressed: () => Navigator.of(context).pop(),

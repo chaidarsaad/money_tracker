@@ -15,7 +15,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   int currentIndex = 0;
   CarouselController carouselController = CarouselController();
   List<String> titles = [
-    'Sebagai Informasi nih',
+    'For Your Information nih',
     'Cara menambah transaksi',
     'Cara mengubah nama',
     'Cara menghapus transaksi',
@@ -43,19 +43,19 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 CarouselSlider(
                   items: [
                     Image.asset(
-                      'assets/virus.png',
+                      'assets/images/virus.png',
                     ),
                     Image.asset(
-                      'assets/add_transaction.png',
+                      'assets/images/add_transaction.png',
                     ),
                     Image.asset(
-                      'assets/add_transaction.png',
+                      'assets/images/add_transaction.png',
                     ),
                     Image.asset(
-                      'assets/delete_transaction.png',
+                      'assets/images/delete_transaction.png',
                     ),
                     Image.asset(
-                      'assets/thank-you-illustration.png',
+                      'assets/images/thank-you-illustration.png',
                     ),
                   ],
                   options: CarouselOptions(

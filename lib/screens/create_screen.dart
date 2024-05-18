@@ -34,6 +34,7 @@ class _CreateScreenState extends State<CreateScreen> {
     return Scaffold(
       backgroundColor: Colors.grey[300],
       appBar: AppBar(
+        scrolledUnderElevation: 0,
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () => Navigator.of(context).pop(),
